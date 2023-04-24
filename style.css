@@ -1,0 +1,334 @@
+body{
+    background-color: rgb(20, 12, 31);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#searchF{
+  margin-bottom: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+}
+
+label{
+  display: block;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+#searchIn{
+  width: 70%;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#submitIn{
+  width: 10%;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+}
+
+th{
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(241, 241, 241);
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .cube {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:900px;
+    height: 700px;
+    background-color: #a52121;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(173, 54, 54, 0.2);
+  }
+  
+  #pdtl {
+    font-size: 45px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size:20px;
+    color: #f7f7f7;
+    margin-bottom: 0.5rem;
+  }
+  
+  #pdescrip{
+    word-wrap: break-word;
+    font-size: 20px;
+    max-width: 450px;
+  }
+
+  .containerR{
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #1d1559
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .formGr{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .has-error input,
+  .has-error textarea{
+    border-color: rgb(16, 113, 102);
+  }
+
+
+input[input="submit"]{
+  padding: 10px;
+  background-color: #10e829;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#reg{
+  margin-right: 10%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.blockH{
+  display: block;
+  color: #f00;
+  margin-top: 5px;
+}
+
+.btnS{
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.homeP {
+  background-color: rgb(20, 12, 31);
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.containerH {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cubeH {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 400px;
+  background-color: #3d2c2c;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(173, 54, 54, 0.2);
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 20px 40px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #0e4a6d;
+  text-align: center;
+  background-color: #f2f1f4;
+  cursor: pointer;
+}
+
+#logI{
+  margin-right: 10%;
+}
+
+#btnr{
+  margin-bottom: 10px;
+  text-decoration: none;
+
+}
+
+
+#logB{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px
+}
+
+#logF{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+#logL{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#emailA{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#passd{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#logSub{
+    display: block;
+    width: 100%;
+    padding: 2 0px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#logSub:hover{
+    background-color: #007bff;
+}
+
+
+#containerAdd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#cubeAdd {
+  position: relative;
+  width: 400px;
+  height: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#addpH{
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#addpL{
+  display: block;
+  margin-bottom: 10px;
+}
+
+#tleA, #descrip, #startDt,
+#endDt, #phaseAdd, textarea{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#addSb{
+  background-color: #110874;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#addSb:hover {
+  background-color: #005b8c
+}
+
+
+#addPbtn{
+  background-color: #4CAF50; 
+  border: none; 
+  color: white;
+  padding: 10px 20px; 
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block; 
+  font-size: 16px; 
+  margin-top: 10px; 
+  cursor: pointer; 
+  border-radius: 5px; 
+}
